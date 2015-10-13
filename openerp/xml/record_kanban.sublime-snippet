@@ -1,0 +1,44 @@
+<snippet>
+	<content><![CDATA[
+<record model="ir.ui.view" id="<${1:name}_view">
+    <field name="name">${1:name} Kanban</field>
+    <field name="model">.${1:name}</field>
+    <field name="priority">10</field>
+    <field name="arch" type="xml">
+        <kanban>
+            <templates>
+                <t t-name="kanban-box">
+                    <div t-attf-class="oe_kanban_color_#{kanban_getcolor(4)}" >
+                        <div class="oe_${1:name}_vignette">
+                            <div class="${1:name}_image">
+        
+                                <!-- <a type="open"> -->
+                                    
+                                        <!-- <img t-att-src="kanban_image('res.partner', 'image_small', record.id.value)" class="oe_kanban_image"/> -->
+
+                                <!-- </a>  -->
+                            </div>
+                            <div class="${1:name}_details">
+                                <a type="open"><h3><field name="name"/></h3></a> 
+                                                             
+                                <ul><li>Fonction : <field name="fonction"/></li></ul>
+                                    
+                                <div class="oe_kanban_footer_left">
+                                    <span>
+                                        <field name=""/>
+                                    </span>
+                            	</div>
+                        	</div>
+                    	</div>    
+                	</div>
+            	</t>
+        	</templates>
+    	</kanban>
+    </field>
+</record>
+
+]]></content>
+	
+	<tabTrigger>record_kanban</tabTrigger>
+	<scope>source.python,text.xml</scope>
+</snippet>

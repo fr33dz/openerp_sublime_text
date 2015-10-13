@@ -1,0 +1,35 @@
+<snippet>
+	<content><![CDATA[
+
+<record id='' model="ir.ui.view">
+            <field name="name">${1:model}</field>
+            <field name="model">.${1:model}</field>
+            <field name="arch" type="xml">
+			
+                <form string="">
+                    <notebook>
+						<page string=" ">
+						
+							<group col="4">
+                                <field name="name" />
+							</group>
+						</page>
+						<page string="">
+							<group col="2">
+                                <separator string="   " colspan="2" />
+
+				               <separator string="" colspan="2" />
+                                <field name="" nolabel="1" />        
+							</group>
+						</page>
+                    </notebook>
+                </form>
+            
+			</field>
+        </record>
+
+]]></content>
+	
+	<tabTrigger>record_form</tabTrigger>
+	<scope>source.python,text.xml</scope>
+</snippet>

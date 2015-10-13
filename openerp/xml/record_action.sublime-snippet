@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+
+ 		<record id="${1:model}_action" model="ir.actions.act_window">
+            <field name="name" >${1:model}</field>
+            <field name="res_model">.${1:model}</field>
+            <field name="view_mode">kanban,form,tree</field>
+        </record> 
+
+]]></content>
+	
+	<tabTrigger>record_action</tabTrigger>
+	<scope>source.python,text.xml</scope>
+</snippet>

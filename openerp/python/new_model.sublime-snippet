@@ -1,0 +1,39 @@
+<snippet>
+	<content><![CDATA[
+
+class ${1:name}(osv.Model):
+	_name='${1:name}'
+	_description="${2:description}"
+
+	
+	_columns = {
+		
+	}
+
+	 _defaults = {
+        'field_name': value,   
+    }
+
+	def ${3:fonction}(self, cr, uid, ids, context=None):
+        if :
+            return False
+        
+        return True
+
+    _constraints = [
+        (${3:fonction}, 'Message.', ['fields_name']),
+    ]
+
+    _sql_constraints = [
+        ('name_uniq', 'unique(fields_name, fields_name)', 'Message error'),
+        ('fields_check', "CHECK ( fields_name <= fields_name )", "Message error."),
+    ]
+
+
+]]></content>
+	
+	<tabTrigger>new_model</tabTrigger>
+
+	<scope>source.python</scope>
+	<description>Openerp Snippet- by MLMConseil  [Yacine BOUSLAHI] </description>
+</snippet>

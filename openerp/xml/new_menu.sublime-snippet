@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+
+ 		<menuitem name="${1:name}" id="${1:name}_menu" parent="" sequence="15" action=""/>
+
+]]></content>
+	
+	<tabTrigger>menu</tabTrigger>
+	<scope>source.python,text.xml</scope>
+</snippet>

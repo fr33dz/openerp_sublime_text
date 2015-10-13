@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+]]></content>
+	
+	<tabTrigger>record_encoding</tabTrigger>
+	<scope>source.python,text.xml</scope>
+</snippet>

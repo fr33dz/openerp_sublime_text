@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+
+'${1:field}': fields.binary(string='', filters='*.png,*.gif', required=False),
+
+]]></content>
+	
+	<tabTrigger>fbinary</tabTrigger>
+	<scope>source.python</scope>
+</snippet>

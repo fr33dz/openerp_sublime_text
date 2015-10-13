@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+	</data>
+</openerp>
+
+]]></content>
+	
+	<tabTrigger>new_template</tabTrigger>
+	<scope>source.python,text.xml</scope>
+</snippet>

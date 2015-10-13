@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+
+'${1:field}': fields.boolean(string='',  required=False),
+
+]]></content>
+	
+	<tabTrigger>fboolean</tabTrigger>
+	<scope>source.python</scope>
+</snippet>

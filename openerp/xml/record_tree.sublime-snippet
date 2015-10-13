@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+
+<record id='' model="ir.ui.view">
+            <field name="name">${1:model}</field>
+            <field name="model">.${1:model}</field>
+            <field name="arch" type="xml">
+                <tree string="">
+                    <field name="name" />			
+                </tree>
+			</field>
+        </record>
+
+]]></content>
+	
+	<tabTrigger>record_tree</tabTrigger>
+	<scope>source.python,text.xml</scope>
+</snippet>

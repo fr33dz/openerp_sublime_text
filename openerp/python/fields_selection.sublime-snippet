@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+'${1:field}': fields.selection(string='', selection=[('',''),('',''),]), required=True),
+]]></content>
+	
+	<tabTrigger>fselection</tabTrigger>
+	<scope>source.python</scope>
+</snippet>

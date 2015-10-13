@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+'${1:field}': fields.text(string='',  required=True),
+]]></content>
+	
+	<tabTrigger>ftext</tabTrigger>
+	<scope>source.python</scope>
+</snippet>

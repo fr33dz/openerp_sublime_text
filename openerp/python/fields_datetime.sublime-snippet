@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+
+'${1:field}': fields.datetime(string='',  required=False),
+
+]]></content>
+	
+	<tabTrigger>fdatetime</tabTrigger>
+	<scope>source.python</scope>
+</snippet>

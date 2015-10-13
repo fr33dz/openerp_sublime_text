@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+'${1:field}': fields.char(string='', size=100, required=True),
+]]></content>
+	
+	<tabTrigger>fchar</tabTrigger>
+	<scope>source.python</scope>
+</snippet>
